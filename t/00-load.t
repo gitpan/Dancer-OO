@@ -1,6 +1,6 @@
 #!perl -T
 
-use Test::More tests => 1;
+use Test::More tests => 2;
 
 BEGIN {
     use_ok( 'Dancer::OO::Dancer' ) || print "Bail out!\n";
